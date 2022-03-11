@@ -1,0 +1,31 @@
+#testimonyList article {
+    padding: 1% 2% 3% 2%;
+}
+
+#testimonyList h3 {
+    color: rgb(187, 142, 28);
+    margin: 0 0 1% 0;
+}
+
+#divider {
+    height: 2px;
+    background-color: goldenrod;
+    margin: 15px;
+    width: 90%;
+    text-align: center;
+}
+
+#testimonyList p:nth-child(3) {
+    font-style: italic;
+    margin: 1%
+}
+
+#formTestimonySection {
+    margin: 2% 0 3%;
+}
+
+#writeComment {
+    padding: 0 0 2% 0;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,96 @@
+/* General */
+
+
+#presentationCoaching {
+    margin: 2% 2%;
+}
+
+#workElements {
+    margin: 2% 2% 2% 10%;
+}
+
+#formCoachingSection {
+    margin: 2% 0 3%;
+}
+#coaching h3 {
+    padding: 0;
+}
+
+#formCoachingSection p{
+    font-weight: bold;
+}
+
+/* Card */
+
+#coachCard {
+   width: 20%;
+   padding: 2% 1% 2% 1%;
+   margin: 2% 1% 2% 1%;
+   border-radius: 8%;
+   display: inline-block;
+   background-image: url(../assets/logo/card.jpg);
+}
+
+#coachCard:hover {
+    transform: scale(1.1);
+    box-shadow: 2% 1% 2% 1%;
+    cursor: pointer;
+}
+
+#card p {
+    text-align: center;
+}
+
+#card a {
+    text-decoration: none;
+    outline: none;
+}
+
+#name {
+    color: rgb(241, 186, 6);
+    font-weight: bold;
+}
+
+#nickName {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+#coachingType{
+    color: purple;
+    font-weight: bold;
+}
+
+#hourlyRate {
+    color: gold;
+}
+
+#infoCard p {
+    padding: 2% 0 3%;
+}
+
+@media (max-width: 1025px) {
+
+    #coachCard {
+        width: 30%;
+    }
+
+    #coachCard:hover {
+        transform: scale(1.03);
+    }
+
+}
+
+@media (max-width: 810px) {
+
+    #coachCard {
+        width: 46%;
+    }
+
+    #coachCard:hover {
+        transform: scale(1.03);
+    }
+
+}
+

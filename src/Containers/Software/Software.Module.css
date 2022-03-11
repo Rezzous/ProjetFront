@@ -1,0 +1,60 @@
+/* Général */
+
+.softwareTitle {
+    color: rgb(37, 37, 37);
+    background: linear-gradient(rgb(255, 217, 0), rgb(53, 52, 52));
+    border-radius: 70%;
+    width: 15%;
+    margin: auto;
+    padding: 1% 1%;
+}
+
+#software img {
+    width: 30%;
+}
+
+#solvers, #trackers, #others {
+    border: thin solid #404040;
+    padding: 1% 0 0 0;
+}
+
+/* trackers */
+
+#trackersCard {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 3% 1%;
+}
+
+#trackersCard div {
+    width: 33%;
+    height: 100%;
+}
+
+/* solvers */
+
+#solversCard {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 3% 1%;
+}
+
+#solversCard div {
+    width: 50%;
+}
+
+/* autre */
+
+#otherCard {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 3% 1%;
+}
+
+#otherCard div {
+    width: 50%;
+}
+

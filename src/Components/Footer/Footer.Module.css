@@ -1,0 +1,38 @@
+#footerDiv {
+   width:100%;
+}
+
+
+footer {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    /* margin: -100px; */
+}
+
+footer div {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer h2 {
+    margin-top:13%;
+    margin-bottom:5%;
+    font-weight:bold;
+    font-size:16px;
+}
+
+footer li {
+    padding: 2% 0%;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
+

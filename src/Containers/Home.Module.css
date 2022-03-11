@@ -1,0 +1,72 @@
+#imgHome {
+    max-width: 100%;
+}
+
+#homeSection {
+    position: relative;
+}
+
+#homeSection h2 {
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    color: rgb(235, 200, 4);
+    padding: 1.5%;
+    font-size: 39px;
+    font-weight: 600;
+}
+
+#homeSection img {
+    width : 100%;
+    opacity: 0.6;
+}
+
+#homeTexte {
+    position: absolute;
+    top: 18%;
+    color: rgb(8, 8, 1);
+    font-weight: bold;
+    font-size: 25px;
+    padding: 2.5%;
+
+}
+
+@media (max-width: 1040px) {
+    #homeTexte {
+        font-size: 20px;
+    }
+
+    #homeSection h2 {
+        font-size: 30px;
+    }
+} 
+
+@media (max-width: 835px) {
+    #homeTexte {
+        font-size: 17px;
+    }
+    #homeSection h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 630px) {
+    #homeSection {
+        margin: 2%;
+        padding: 1% 1% 7% 1%
+    }
+    
+    #homeTexte {
+        position: relative;
+    }
+    #homeSection h2 {
+        position: relative;
+        left: 0;
+        padding: 2.5%;
+    }
+
+    #homeSection img {
+        display: none;
+    }
+
+}

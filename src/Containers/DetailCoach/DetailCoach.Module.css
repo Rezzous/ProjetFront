@@ -1,0 +1,27 @@
+/* General */
+
+#formCoachSection {
+    margin: 2% 0 3%;
+}
+
+#coachPage span {
+    text-decoration: underline;
+}
+
+p {
+    margin: 1%
+}
+
+#messageCoach {
+    width: 50%;
+}
+
+#messageCoach p {
+    margin: 1% 5%;
+}
+
+#messageCoach p:nth-child(1) {
+    font-style: italic;
+    font-weight: bold;
+    margin: 1% 5%
+}

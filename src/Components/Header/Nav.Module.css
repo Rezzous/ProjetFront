@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300');
+
+nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav img {
+    height: 170px;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 0.58rem;
+    color: white;
+    
+}
+
+nav ul {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 1rem; */
+
+    /* position: fixed; */
+    width: 100%;
+    min-height: 75px;
+    background-color: black;
+    color: white
+
+}
+
+.navbarList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbarBurger {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: white;
+    /* display: none; */
+}
+
+@media (max-width: 930px) {
+    
+    /* nav {
+        z-index : 1;
+        
+    } */
+
+    nav ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        /* right:-100vw; */
+       
+        height: 100vh;
+        padding: 2rem;
+        background-color: black;
+        /* visibility: hidden; */
+
+    }
+    
+    .navOpen ul {
+        
+        width: 100vw;
+        right: 0;
+        z-index: 1;
+    }
+
+    .navClose ul{ 
+        
+        visibility: hidden; 
+        
+    }
+    
+    nav a {
+        display: block;
+        padding: 1.5rem;
+        font-size: 5vw;
+    }
+    .navbarBurger {
+        display: block;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+    }
+    .navbarBurger:hover {
+        cursor: pointer;
+    }
+    .burgerBar,
+    .burgerBar::before,
+    .burgerBar::after {
+        display: block;
+        width: 40px;
+        height: 3px;
+        position: relative;
+        border-radius: 3px;
+        background: white;
+    }
+    .burgerBar::before,
+    .burgerBar::after {
+        content: "";
+        position: absolute;
+        left:0;
+    }
+    .burgerBar::before {
+        transform: translateY(-12px);
+    }
+    .burgerBar::after {
+        transform: translateY(12px);
+    }
+
+    .navOpen .burgerBar {
+        background: transparent;
+    }
+
+    .navOpen .burgerBar::before{
+        transform: rotate(45deg);
+    }
+
+    .navOpen .burgerBar::after{
+        transform: rotate(-45deg);
+    }
+}
